@@ -1,0 +1,63 @@
+/*
+ * App.module.css
+ * @project dolbyio-demo
+ * @author Samson Sham <samson.sham@dolby.com>
+ */
+.App {
+    text-align: center;
+}
+
+.header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+.header img {
+    max-width: 100vw;
+}
+.header input, .header button {
+    position: relative;
+    z-index: 1000;
+}
+
+.link {
+    color: #b318f0;
+}
+
+.waveContainer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.inputFields {
+    font-size: 0.75em;
+}
+.userInterface {
+    min-height: 10rem;
+}
+.multiInputs {
+    display: flex;
+    align-items: center;
+}
+.multiInputs > * {
+    flex: auto;
+}
+
+.timeline {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
