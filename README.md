@@ -1,14 +1,21 @@
+# Dolby.io Sample Application for wavesurfer & konva in SolidJS
+This is a SolidJS sample application demonstrating the use of Dolby.io Enhancement API in Media APIs, with visualization by wavesurfer.js and interactive UI by konva.
+
 ## Usage
 
-Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
-
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
-
+Install dependencies<br>
 ```bash
 $ npm install # or pnpm install or yarn install
 ```
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+To test your app locally, Dolby.io app key credentials are required for the OAuth access token function.<br>
+```
+VITE_CONSUMER_KEY=COPY_FROM_MEDIA_API_APP_KEY
+VITE_CONSUMER_SECRET=COPY_FROM_MEDIA_API_APP_SECRET
+```
+Save it as ".env" file at project root directory then you can start testing or developing your app.<br>
+OAuth access token function and Dolby.io app key credentials are written into the app **only for testing purpose, do not deploy this app as-is on public domain**.
+
 
 ## Available Scripts
 
@@ -31,4 +38,5 @@ Your app is ready to be deployed!
 
 ## Deployment
 
+**Caution: OAuth access token function and key credentials should be implemented on the server side** 
 You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
