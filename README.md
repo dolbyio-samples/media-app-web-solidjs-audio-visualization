@@ -1,4 +1,6 @@
 # Dolby.io Sample Application for wavesurfer & konva in SolidJS
+From the blog post: https://dolby.io/blog/how-to-visualize-and-annotate-your-audio-with-wavesurfer-js-and-konva-in-solidjs/
+
 This is a SolidJS sample application demonstrating the use of Dolby.io Enhancement API in Media APIs, with visualization by wavesurfer.js and interactive UI by konva.
 
 ## Usage
