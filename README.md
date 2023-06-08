@@ -43,7 +43,8 @@ Your app is ready to be deployed!
 
 ## Deployment
 
-**Caution: OAuth access token function and key credentials should be implemented on the server side** 
+**Caution: OAuth access token function and key credentials should be implemented on the server side.** 
+
 You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
 
 # Report a Bug 
